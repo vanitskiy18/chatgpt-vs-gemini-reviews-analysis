@@ -203,11 +203,11 @@ tdm_assoc <- removeSparseTerms(tdm_assoc, 0.9999)
 
 #' ## Asocjacje dla wybranych słów
 
-findAssocs(tdm_assoc, "excellent", 0.1)
-findAssocs(tdm_assoc, "love", 0.1)
+findAssocs(tdm_assoc, "recommend", 0.1)
+findAssocs(tdm_assoc, "information", 0.1)
+findAssocs(tdm_assoc, "subscription", 0.1)
 findAssocs(tdm_assoc, "awful", 0.15)
 findAssocs(tdm_assoc, "wrong", 0.1)
-findAssocs(tdm_assoc, "fine", 0.1)
 findAssocs(tdm_assoc, "abilities", 0.1)
 findAssocs(tdm_assoc, "understanding", 0.1)
 findAssocs(tdm_assoc, "answer", 0.1)
@@ -254,11 +254,11 @@ plot_associations <- function(tdm, term, min_cor = 0.15) {
     )
 }
 
-plot_associations(tdm_assoc, "excellent", 0.1)
-plot_associations(tdm_assoc, "love", 0.1)
+plot_associations(tdm_assoc, "recommend", 0.1)
+plot_associations(tdm_assoc, "information", 0.1)
+plot_associations(tdm_assoc, "subscription", 0.1)
 plot_associations(tdm_assoc, "awful", 0.15)
 plot_associations(tdm_assoc, "wrong", 0.1)
-plot_associations(tdm_assoc, "fine", 0.1)
 plot_associations(tdm_assoc, "abilities", 0.1)
 plot_associations(tdm_assoc, "understanding", 0.1)
 plot_associations(tdm_assoc, "answer", 0.1)
