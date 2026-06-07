@@ -31,7 +31,7 @@ Thumbs.db
 # =========================
 output/
 plots/
-*.html
+#*.html
 
 # =========================
 # Temporary files
